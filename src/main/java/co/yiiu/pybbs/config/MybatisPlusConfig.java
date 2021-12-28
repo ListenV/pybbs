@@ -13,7 +13,6 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.DependsOn;
 
 import javax.sql.DataSource;
 
@@ -33,7 +32,6 @@ public class MybatisPlusConfig {
     //  }
 
     @Bean("mybatisSqlSession")
-    @DependsOn("flywayConfig")
     public SqlSessionFactory sqlSessionFactory(@Qualifier("dataSource") DataSource dataSource) throws Exception {
         MybatisSqlSessionFactoryBean sqlSessionFactory = new MybatisSqlSessionFactoryBean();
         MybatisConfiguration configuration = new MybatisConfiguration();
