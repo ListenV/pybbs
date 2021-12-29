@@ -6,11 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+// 管理员用户
 public class AdminUser implements Serializable {
 
     private static final long serialVersionUID = 8264158018518861440L;
@@ -18,6 +14,9 @@ public class AdminUser implements Serializable {
     private Integer id;
     private String username;
     private String password;
+    /**
+     * @inTime 创建时间
+     */
     private Date inTime;
     private Integer roleId;
 

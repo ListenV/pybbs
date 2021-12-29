@@ -7,11 +7,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+// 普通用户
 public class User implements Serializable {
 
     private static final long serialVersionUID = -5051120337175047163L;
@@ -20,6 +16,7 @@ public class User implements Serializable {
     private Integer id;
     private String username;
     private String telegramName;
+    // 头像地址
     private String avatar;
     @JsonIgnore
     private String password;
@@ -29,7 +26,9 @@ public class User implements Serializable {
     private String website;
     // 个人简介
     private String bio;
+    // 积分
     private Integer score;
+    // 注册时间
     private Date inTime;
     @JsonIgnore
     private String token;

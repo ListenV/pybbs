@@ -30,7 +30,6 @@
         <shiro-spring.version>1.4.0</shiro-spring.version>
         <jedis.version>3.0.0</jedis.version>
         <elasticsearch.version>6.5.3</elasticsearch.version>
-        <flyway.version>5.2.1</flyway.version>
         <justauth.version>1.15.5</justauth.version>
     </properties>
 
@@ -70,12 +69,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
-        </dependency>
-
-<!--        数据库数据升级-->
-        <dependency>
-            <groupId>org.flywaydb</groupId>
-            <artifactId>flyway-core</artifactId>
         </dependency>
 
         <dependency>

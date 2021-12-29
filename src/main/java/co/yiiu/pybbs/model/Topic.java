@@ -6,11 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+// 用户发布的主题，或者叫帖子
 public class Topic implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -19,7 +15,7 @@ public class Topic implements Serializable {
     private Integer id;
     private String title;
     private String style; // 内容格式化，RICH，MD
-    private String content;
+    private String content;    // 具体内容
     private Date inTime;
     private Date modifyTime;
     private Integer userId;

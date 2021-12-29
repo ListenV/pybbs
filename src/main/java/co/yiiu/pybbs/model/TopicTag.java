@@ -2,11 +2,7 @@ package co.yiiu.pybbs.model;
 
 import java.io.Serializable;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+// 标签
 public class TopicTag implements Serializable {
     private static final long serialVersionUID = -5028599844989220715L;
     private Integer tagId;
