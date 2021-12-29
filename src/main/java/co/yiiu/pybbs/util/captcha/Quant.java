@@ -1,11 +1,5 @@
 package co.yiiu.pybbs.util.captcha;
 
-/**
- * <p></p>
- *
- * @author: wuhongjun
- * @version:1.0
- */
 public class Quant {
     protected static final int netsize = 256; /* number of colours used */
 

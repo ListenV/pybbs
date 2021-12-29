@@ -10,9 +10,6 @@ import static co.yiiu.pybbs.util.captcha.Randoms.num;
 
 /**
  * <p>png格式验证码</p>
- *
- * @author: wuhongjun
- * @version:1.0
  */
 public class SpecCaptcha extends Captcha {
     public SpecCaptcha() {

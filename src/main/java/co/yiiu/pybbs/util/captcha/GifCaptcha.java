@@ -8,9 +8,6 @@ import static co.yiiu.pybbs.util.captcha.Randoms.num;
 
 /**
  * <p>Gif验证码类</p>
- *
- * @author: wuhongjun
- * @version:1.0
  */
 public class GifCaptcha extends Captcha {
     public GifCaptcha() {

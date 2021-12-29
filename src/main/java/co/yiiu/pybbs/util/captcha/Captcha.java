@@ -8,15 +8,12 @@ import static co.yiiu.pybbs.util.captcha.Randoms.num;
 
 /**
  * <p>验证码抽象类,暂时不支持中文</p>
- *
- * @author: wuhongjun
- * @version:1.0
  */
 public abstract class Captcha {
 
     protected Font font = new Font("Verdana", Font.ITALIC | Font.BOLD, 28);   // 字体
     protected int len = 4;  // 验证码随机字符长度
-    protected int width = 120;  // 验证码显示跨度
+    protected int width = 120;  // 验证码显示宽度
     protected int height = 32;  // 验证码显示高度
     private String chars = null;  // 随机字符串
 
