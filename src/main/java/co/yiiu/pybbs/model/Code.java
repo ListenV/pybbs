@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
 import java.util.Date;
 
-// 验证码
+// 邮箱激活码
 public class Code implements Serializable {
 
     private static final long serialVersionUID = -6008460350253418202L;
