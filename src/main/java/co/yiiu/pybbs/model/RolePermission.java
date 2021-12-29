@@ -1,10 +1,6 @@
 package co.yiiu.pybbs.model;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+// 权限规则
 public class RolePermission {
 
     private Integer roleId;

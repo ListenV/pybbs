@@ -6,11 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 
 import java.io.Serializable;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+// 系统设置
 public class SystemConfig implements Serializable {
 
     @TableId(type = IdType.AUTO)

@@ -5,11 +5,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 
 import java.io.Serializable;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+// 具体页面的权限
 public class Permission implements Serializable {
     private static final long serialVersionUID = -2694960432845360318L;
     @TableId(type = IdType.AUTO)

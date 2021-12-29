@@ -7,11 +7,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+// 通知类
 public class Notification implements Serializable {
     private static final long serialVersionUID = 3235461023789820336L;
 

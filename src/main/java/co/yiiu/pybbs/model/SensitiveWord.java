@@ -3,11 +3,7 @@ package co.yiiu.pybbs.model;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+// 敏感词
 public class SensitiveWord {
 
     @TableId(type = IdType.AUTO)

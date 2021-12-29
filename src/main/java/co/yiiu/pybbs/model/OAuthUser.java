@@ -9,11 +9,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+// 对用户进行验证的类
 @TableName("oauth_user")
 public class OAuthUser implements Serializable {
 
