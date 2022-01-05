@@ -14,11 +14,6 @@ import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 import javax.annotation.Resource;
 import java.util.Locale;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
 @Configuration
 public class WebMvcConfig extends WebMvcConfigurationSupport {
 

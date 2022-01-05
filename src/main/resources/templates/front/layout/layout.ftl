@@ -13,12 +13,12 @@
               href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"/>
         <link rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="/static/theme/default/css/app.css"/>
+        <link rel="stylesheet" href="/static/front/css/app.css"/>
         <#--javascript-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-        <script src="/static/theme/default/libs/layer/layer.js"></script>
-        <script src="/static/theme/default/js/app.js"></script>
+        <script src="/static/front/libs/layer/layer.js"></script>
+        <script src="/static/front/js/app.js"></script>
 
     </head>
     <body>
