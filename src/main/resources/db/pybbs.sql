@@ -364,8 +364,6 @@ INSERT INTO `system_config` VALUES (9, 'delete_comment_score', '5', '删除评�
 INSERT INTO `system_config` VALUES (10, 'delete_topic_score', '10', '删除话题要被扣除的积分', 26, 'number', NULL, 0);
 INSERT INTO `system_config` VALUES (11, 'intro', '<h5>属于Java语言的bbs</h5><p>在这里，您可以提问，回答，分享，诉说，这是个属于Java程序员的社区，欢迎您的加入！</p>', '站点介绍', 23, 'text', NULL, 0);
 INSERT INTO `system_config` VALUES (12, 'mail_host', 'smtp.qq.com', '邮箱的smtp服务器地址', 24, 'text', NULL, 0);
-INSERT INTO `system_config` VALUES (13, 'mail_password', 'gcyhpoupowrsbdjd', '发送邮件的邮箱密码', 24, 'password', NULL, 0);
-INSERT INTO `system_config` VALUES (14, 'mail_username', 'sky03.sen@qq.com', '发送邮件的邮箱地址', 24, 'email', NULL, 0);
 INSERT INTO `system_config` VALUES (15, 'name', '朋也社区', '站点名称', 23, 'text', NULL, 0);
 INSERT INTO `system_config` VALUES (16, 'page_size', '20', '分页每页条数', 23, 'number', NULL, 0);
 INSERT INTO `system_config` VALUES (17, 'websocket', '0', '是否开启websocket功能', 45, 'radio', NULL, 1);

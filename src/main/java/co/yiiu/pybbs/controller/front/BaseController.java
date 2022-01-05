@@ -10,20 +10,18 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.Objects;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+// 基础Controller，增强一些方法
 public class BaseController {
 
     @Resource
     private ISystemConfigService systemConfigService;
 
+    // 方便重定向
     protected String redirect(String path) {
         return "redirect:" + path;
     }
 
+    // 获取用户Session
     protected User getUser() {
         HttpServletRequest request = ((ServletRequestAttributes) Objects.requireNonNull(RequestContextHolder
                 .getRequestAttributes())).getRequest();

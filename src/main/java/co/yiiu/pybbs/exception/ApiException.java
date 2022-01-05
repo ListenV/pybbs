@@ -1,10 +1,6 @@
 package co.yiiu.pybbs.exception;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+// 自定义API异常类
 public class ApiException extends RuntimeException {
 
     private static final long serialVersionUID = 1L;

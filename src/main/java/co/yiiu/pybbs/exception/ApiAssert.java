@@ -3,11 +3,7 @@ package co.yiiu.pybbs.exception;
 import org.springframework.util.Assert;
 import org.springframework.util.StringUtils;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+// API断言类
 public class ApiAssert extends Assert {
 
     public static void isNull(Object object, String message) {

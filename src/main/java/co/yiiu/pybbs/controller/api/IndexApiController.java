@@ -15,11 +15,6 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 import java.util.*;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
 @RestController
 @RequestMapping("/api")
 public class IndexApiController extends BaseApiController {

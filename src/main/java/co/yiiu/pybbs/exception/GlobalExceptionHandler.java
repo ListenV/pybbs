@@ -22,11 +22,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Optional;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2016, All Rights Reserved.
- * https://yiiu.co
- */
 @ControllerAdvice
 public class GlobalExceptionHandler {
 

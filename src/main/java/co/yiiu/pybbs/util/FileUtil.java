@@ -24,11 +24,6 @@ import java.security.MessageDigest;
 import java.util.Date;
 import java.util.Objects;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
 @Component
 public class FileUtil {
 
