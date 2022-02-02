@@ -25,7 +25,7 @@ import java.util.Optional;
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
-    private Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
+    private final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
     @Resource
     private ISystemConfigService systemConfigService;
@@ -56,7 +56,9 @@ public class GlobalExceptionHandler {
             ModelAndView mav = new ModelAndView();
             mav.addObject("exception", e);
             mav.addObject("errorCode", getStatus(request));
-            mav.setViewName("theme/" + systemConfigService.selectAllConfig().get("theme").toString() + "/error");
+            // TODO 主题相关
+//            mav.setViewName("theme/" + systemConfigService.selectAllConfig().get("theme").toString() + "/error");
+            mav.setViewName("front/error");
             return mav;
         } else /*if (accept.contains("application/json"))*/ {
             Result result = new Result();
