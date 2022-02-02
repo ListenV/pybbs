@@ -3,9 +3,6 @@ package co.yiiu.pybbs.util;
 import co.yiiu.pybbs.util.bcrypt.BCryptPasswordEncoder;
 import org.junit.Test;
 
-/**
- * Created by tomoya at 2019/5/24
- */
 public class StringUtilTest {
 
     @Test

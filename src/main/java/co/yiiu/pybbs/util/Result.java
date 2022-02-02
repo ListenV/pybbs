@@ -1,5 +1,6 @@
 package co.yiiu.pybbs.util;
 
+// 请求结果
 public class Result {
 
     private Integer code;
