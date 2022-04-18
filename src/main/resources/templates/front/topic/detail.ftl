@@ -191,7 +191,7 @@
             });
             // 删除话题
             $("#deleteTopic").click(function () {
-                if (confirm("确定要删除吗？这会清空跟这个话题所有相关的数据，再考虑考虑呗！！")) {
+                if (confirm("确定要删除吗？这会清空跟这个文章所有相关的数据，再考虑考虑呗！！")) {
                     req("delete", "/api/topic/${topic.id}", "${_user.token!}", function (data) {
                         if (data.code === 200) {
                             suc("删除成功");

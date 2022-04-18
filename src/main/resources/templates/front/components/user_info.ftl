@@ -15,7 +15,7 @@
         </div>
         <div class="mt-2">
             <a href="/topic/create">
-                <span class="fa fa-pencil"></span><i>发布话题</i>
+                <span class="fa fa-pencil"></span><i>发布文章</i>
             </a>
         </div>
     </div>

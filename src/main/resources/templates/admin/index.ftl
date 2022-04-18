@@ -18,7 +18,7 @@
                     <div class="inner">
                         <h3>${topic_count!0}</h3>
 
-                        <p>今天新增话题数</p>
+                        <p>今天新增文章数</p>
                     </div>
                     <div class="icon">
                         <i class="ion ion-ios-list-outline"></i>

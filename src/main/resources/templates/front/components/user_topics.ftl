@@ -1,10 +1,10 @@
 <#macro user_topics pageNo pageSize username isPaginate=false isFooter=false>
     <div class="card">
         <@tag_user_topics username=username pageNo=pageNo pageSize=pageSize>
-            <div class="card-header">${username}创建的话题</div>
+            <div class="card-header">${username}创建的文章</div>
             <#if topics.total == 0>
                 <div class="card-body">
-                    暂无话题
+                    暂无文章
                 </div>
             <#else>
                 <div class="card-body paginate-bot">
@@ -39,7 +39,7 @@
                 </div>
                 <#if isFooter>
                     <div class="card-footer">
-                        <a href="/user/${username}/topics">${username}更多话题&gt;&gt;</a>
+                        <a href="/user/${username}/topics">${username}更多文章&gt;&gt;</a>
                     </div>
                 </#if>
             </#if>

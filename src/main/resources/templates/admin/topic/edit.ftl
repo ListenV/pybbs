@@ -1,20 +1,20 @@
 <#include "../layout/layout.ftl">
-<@html page_title="话题编辑" page_tab="topic">
+<@html page_title="文章编辑" page_tab="topic">
     <section class="content-header">
         <h1>
-            话题
+            文章
             <small>编辑</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="/admin/index"><i class="fa fa-dashboard"></i> 首页</a></li>
-            <li><a href="/admin/topic/list">话题</a></li>
+            <li><a href="/admin/topic/list">文章</a></li>
             <li class="active">编辑</li>
         </ol>
     </section>
     <section class="content">
         <div class="box box-info">
             <div class="box-header with-border">
-                <h3 class="box-title">话题编辑</h3>
+                <h3 class="box-title">文章编辑</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -67,7 +67,7 @@
                                placeholder="标签, 多个标签以 英文逗号 隔开"/>
                     </div>
                     <div class="form-group">
-                        <button type="button" id="btn" class="btn btn-primary">更新话题</button>
+                        <button type="button" id="btn" class="btn btn-primary">更新文章</button>
                     </div>
                 </form>
             </div>

@@ -1,9 +1,9 @@
 <#include "../layout/layout.ftl"/>
-<@html page_title="编辑话题" page_tab="">
+<@html page_title="编辑文章" page_tab="">
     <div class="row">
         <div class="col-md-9">
             <div class="card">
-                <div class="card-header">编辑话题</div>
+                <div class="card-header">编辑文章</div>
                 <div class="card-body">
                     <form action="" onsubmit="return;" id="form">
                         <div class="form-group">
@@ -27,7 +27,7 @@
                           <input type="text" name="tags" id="tags" value="${tags}" class="form-control" placeholder="标签, 多个标签以 英文逗号 隔开"/>
                         </div>-->
                         <div class="form-group">
-                            <button type="button" id="btn" class="btn btn-info">更新话题</button>
+                            <button type="button" id="btn" class="btn btn-info">更新文章</button>
                         </div>
                     </form>
                 </div>

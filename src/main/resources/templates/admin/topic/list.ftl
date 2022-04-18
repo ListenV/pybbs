@@ -1,26 +1,26 @@
 <#include "../layout/layout.ftl">
-<@html page_title="话题列表" page_tab="topic">
+<@html page_title="文章列表" page_tab="topic">
     <section class="content-header">
         <h1>
-            话题
+            文章
             <small>列表</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="/admin/index"><i class="fa fa-dashboard"></i> 首页</a></li>
-            <li><a href="/admin/topic/list">话题</a></li>
+            <li><a href="/admin/topic/list">文章</a></li>
             <li class="active">列表</li>
         </ol>
     </section>
     <section class="content">
         <div class="box box-info">
             <div class="box-header with-border">
-                <h3 class="box-title">话题列表</h3>
+                <h3 class="box-title">文章列表</h3>
                 <span class="pull-right">
           <#if sec.hasPermission("topic:index_all")>
-              <button onclick="index_all_topic()" class="btn btn-primary btn-xs">索引全部话题</button>&nbsp;
+              <button onclick="index_all_topic()" class="btn btn-primary btn-xs">索引全部文章</button>&nbsp;
           </#if>
                     <#if sec.hasPermission("topic:delete_all_index")>
-                        <button onclick="delete_all_index()" class="btn btn-danger btn-xs">删除所有话题索引</button>
+                        <button onclick="delete_all_index()" class="btn btn-danger btn-xs">删除所有文章索引</button>
                     </#if>
         </span>
             </div>
@@ -163,7 +163,7 @@
         <#if sec.hasPermission("topic:index")>
 
         function index_topic(id) {
-            if (confirm("确定要单独索引这个话题吗？")) {
+            if (confirm("确定要单独索引这个文章吗？")) {
                 $.get("/admin/topic/index?id=" + id, function (data) {
                     if (data.code === 200) {
                         toast("成功", "success");
@@ -178,7 +178,7 @@
         <#if sec.hasPermission("topic:index_all")>
 
         function index_all_topic() {
-            if (confirm("如果话题数量很多的话，这个操作会非常耗时，点击确定继续")) {
+            if (confirm("如果文章数量很多的话，这个操作会非常耗时，点击确定继续")) {
                 $.get("/admin/topic/index_all", function (data) {
                     if (data.code === 200) {
                         toast("成功", "success");
@@ -193,7 +193,7 @@
         <#if sec.hasPermission("topic:delete_all_index")>
 
         function delete_all_index() {
-            if (confirm("删除了所有话题索引，用户就搜不到数据了，确定吗？")) {
+            if (confirm("删除了所有文章索引，用户就搜不到数据了，确定吗？")) {
                 $.get("/admin/topic/delete_all_index", function (data) {
                     if (data.code === 200) {
                         toast("成功", "success");
@@ -208,7 +208,7 @@
         <#if sec.hasPermission("topic:delete_index")>
 
         function delete_index(id) {
-            if (confirm("确定要删除这个话题的索引吗？")) {
+            if (confirm("确定要删除这个文章的索引吗？")) {
                 $.get("/admin/topic/delete_index?id=" + id, function (data) {
                     if (data.code === 200) {
                         toast("成功", "success");

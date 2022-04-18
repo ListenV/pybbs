@@ -12,7 +12,7 @@
                             <#if user.bio??>
                                 <div><i class="gray">${user.bio!}</i></div>
                             </#if>
-                            <div>收藏话题: <a href="/user/${user.username}/collects">${collectCount!0}</a></div>
+                            <div>收藏文章: <a href="/user/${user.username}/collects">${collectCount!0}</a></div>
                             <div>入驻时间: ${model.formatDate(user.inTime)}</div>
                         </div>
                     </div>

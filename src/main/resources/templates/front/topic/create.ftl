@@ -1,9 +1,9 @@
 <#include "../layout/layout.ftl"/>
-<@html page_title="创建话题" page_tab="">
+<@html page_title="创建文章" page_tab="">
     <div class="row">
         <div class="col-md-9">
             <div class="card">
-                <div class="card-header">发布话题</div>
+                <div class="card-header">发布文章</div>
                 <div class="card-body">
                     <form action="" onsubmit="return false;" id="form" method="post">
                         <div class="form-group">
@@ -28,7 +28,7 @@
                         </div>-->
                         <input type="hidden" name="tag" id="tag" value="${tag!}"/>
                         <div class="form-group">
-                            <button type="button" id="btn" class="btn btn-info">发布话题</button>
+                            <button type="button" id="btn" class="btn btn-info">发布文章</button>
                         </div>
                     </form>
                 </div>
