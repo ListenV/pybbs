@@ -16,11 +16,6 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.sql.DataSource;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
 @Configuration
 @MapperScan("co.yiiu.pybbs.mapper")
 public class MybatisPlusConfig {
