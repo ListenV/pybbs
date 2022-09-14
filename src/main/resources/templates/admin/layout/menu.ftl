@@ -4,7 +4,7 @@
             <ul class="sidebar-menu">
                 <div class="user-panel">
                     <div class="pull-left image">
-                        <img src="https://avatars0.githubusercontent.com/u/6915570"
+                        <img src="https://avatars.githubusercontent.com/u/45219522"
                              class="img-circle"
                              alt="User Image">
                     </div>
